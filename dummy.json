@@ -1,0 +1,93 @@
+[
+    {
+      "Name": "Wilderness Expeditions",
+      "Image": "wilderness_expeditions.jpg",
+      "Area": "Rocky Mountains, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Northern Outdoors",
+      "Image": "northern_outdoors.jpg",
+      "Area": "Alaskan Wilderness, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Great Lakes Outfitters",
+      "Image": "great_lakes_outfitters.jpg",
+      "Area": "Great Lakes Region, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Southwestern Adventures",
+      "Image": "southwestern_adventures.jpg",
+      "Area": "Southwestern Deserts, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Appalachian Expeditions",
+      "Image": "appalachian_expeditions.jpg",
+      "Area": "Appalachian Mountains, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Pacific Northwest Hunts",
+      "Image": "pacific_northwest_hunts.jpg",
+      "Area": "Pacific Northwest, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Everglades Hunting Co.",
+      "Image": "everglades_hunting.jpg",
+      "Area": "Everglades, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Texas Plains Outfitters",
+      "Image": "texas_plains_outfitters.jpg",
+      "Area": "Texas Plains, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Rocky Mountain Adventures",
+      "Image": "rocky_mountain_adventures.jpg",
+      "Area": "Rocky Mountain Range, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Eastern Seaboard Hunts",
+      "Image": "eastern_seaboard_hunts.jpg",
+      "Area": "Eastern Seaboard, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Midwestern Outdoors",
+      "Image": "midwestern_outdoors.jpg",
+      "Area": "Midwestern Plains, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Southern Swamp Expeditions",
+      "Image": "southern_swamp_expeditions.jpg",
+      "Area": "Southern Swamps, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Rocky Desert Outfitters",
+      "Image": "rocky_desert_outfitters.jpg",
+      "Area": "Rocky Deserts, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "Central Valley Hunts",
+      "Image": "central_valley_hunts.jpg",
+      "Area": "Central Valley, USA",
+      "Favourite": false
+    },
+    {
+      "Name": "New England Adventures",
+      "Image": "new_england_adventures.jpg",
+      "Area": "Rocky Mountains, USA", 
+      "Favourite": false
+    }
+  ]
+  
