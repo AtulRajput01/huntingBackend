@@ -19,7 +19,7 @@ const addAnimal=async (req,res)=>{
 
 const addSpecies = async (req, res) => {
   try {
-    const { animalId, spiceName, spiceImage, description } = req.body;
+    const { animalId, specieName, specieImage,description } = req.body;
 
     const animals = await animal.findById(animalId);
     if (!animal) {
@@ -27,12 +27,12 @@ const addSpecies = async (req, res) => {
     }
  
     animals.subcategories.push({
-      spiceName,
-      spiceImage:spiceImage[0],
-      description
+      spiceName:specieName,
+      spiceImage:specieImage,
+      description:description
     });
     await animals.save();
-    res.send('Subcategory added');
+    res.status(200).send('Subcategory added');
   } catch (error) {
     res.status(500).send('Error adding subcategory');
   }
@@ -103,4 +103,20 @@ const deleteSpecies=async(req,res)=>{
   }
 }
 
-module.exports={addAnimal,getAnimal,addSpecies,getAnimalById,deleteAnimals,deleteSpecies}
+const getSpecie=async(req,res)=>{
+  try{
+    const {id}=req.params;
+    const reslut=await animal.findById(id)
+    res.status(200).json({
+      status:200,
+      data: reslut.subcategories
+    })
+  }catch(error){
+    res.status(500).json({
+      status:500,
+      msg:error.massage
+    })
+  }
+}
+
+module.exports={addAnimal,getAnimal,addSpecies,getAnimalById,deleteAnimals,deleteSpecies,getSpecie}
